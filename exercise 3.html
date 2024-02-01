@@ -1,117 +1,118 @@
 <!DOCTYPE html>
-
-<html
- 
-lang="en">
-
+<html lang="en">
 <head>
-    
-<meta
- 
-charset="UTF-8">
+    <!-- forms/colors-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <style>
+        body {
+            font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table {
+            font-size: 20px;
+        }
+        form{
+            font-size: 20px;
+        }
 
-    
-<meta
- 
-name="viewport"
- 
-content="width=device-width, initial-scale=1.0">
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
 
-    
-<title>My Page</title>
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 26px;
+            margin: 0 10px;
+        }
 
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+        }
+    </style>
 </head>
-<h1>WELCOME!</h1>
+<!-- dito lahat-->
 <body>
 
-<nav>
+
+    <nav>
     <a href="https://en.wikipedia.org/wiki/Michael_Jordan">Home</a> |
     <a href="https://en.wikipedia.org/wiki/Kobe_Bryant">About Us</a> |
     <a href="https://en.wikipedia.org/wiki/LeBron_James">Contact</a>
 </nav>
-<figure>
-    <img src="https://i.redd.it/xjagf8jq8meb1.jpg" alt="crank that shinji boy"width="900" height="600">
-    <figcaption><b>I kenat html design</b></figcaption>
-</figure>
-<form>
-    <label for="name"><b>Name:</b></label>
-    <input type="text" id="name" name="name" required minlength="2">
+   <h1 style="background-color: #333; color: white; font-size: 50px;">WELCOME!</h1>
+<body style="background-color:rgb(85, 156, 223);">
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHR6dXc3MDBoenNyODI5djRjcndlc2R6bjVzcjh4ZHExcmlieHJncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wRmOK4J2261gI/giphy.gif" alt="kirby" style="width:1800px;height:300px">
+    <!-- Input -->
+    <form>
+        <label for="name"><b>Name:</b></label>
+        <input type="text" id="name" name="name" required minlength="2">
+    </form>
+    <form>
+        <label for="password"><b>Password:</b></label>
+        <input type="password" id="password" name="password" required>
+    </form>
+    <form>
+        <label for="gender"><b>Gender:</b></label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </form>
+        <p style="font-size:20px;"><label for="terms">Accept terms and conditions:</label>
+        <input type="checkbox" id="terms" name="terms" required>
+        <button type="submit">Submit</button></p>
+<!-- table -->
+    <table style="background-color:violet;">
+        <thead>
+            <tr>
+                <th>Name|</th>
+                <th>Age|</th>
+                <th>City|</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John|</td>
+                <td>25|</td>
+                <td>New York|</td>
+            </tr>
+            <tr>
+                <td>Jane|</td>
+                <td>30|</td>
+                <td>Los Angeles|</td>
+            </tr>
+        </tbody>
+    </table>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy6pBh4pMQuvMtk6oD5AxpM6F7xmjJPbX" crossorigin="anonymous">
 
-    <label for="password"><b>Password:</b></label>
-    <input type="password" id="password" name="password" required>
+    <!-- java -->
+    <script src="path/to/your/external-script.js" defer></script>
+    <h1>External Resources Example</h1>
 
-    <label for="gender"><b>Gender:</b></label>
-    <input type="radio" id="male" name="gender" value="male">
-    <label for="male">Male</label>
-    <input
- 
-type="radio"
- 
-id="female"
- 
-name="gender"
- 
-value="female">
+    <div class="container">
+        <p>CLICK IT!.</p>
 
-    
-<label
- 
-for="female">Female</label>
+        <button id="exampleButton" class="btn btn-primary">Click me</button>
+    </div>
 
+    <script>
+        document.getElementById('exampleButton').addEventListener('click', function() {
+            alert('Button clicked! Wow Magic!');
+        });
+    </script>
 
-    
-<p><label for="terms">Accept terms and conditions:</label></p>
-
-    
-<input
- 
-type="checkbox"
- 
-id="terms"
- 
-name="terms"
- 
-required>
-
-
-    
-<button
- 
-type="submit">Submit</button>
-</form>
-
-<table>
-    <thead>
-        <tr>
-            <th>Name|</th>
-            <th>Age|</th>
-            <th>City|</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>John|</td>
-            <td>25|</td>
-            <td>New York|</td>
-        </tr>
-        <tr>
-            <td>Jane|</td>
-            <td>30|</td>
-            <td>Los Angeles|</td>
-        </tr>
-    </tbody>
-</table>
-
-<audio controls>
-    <source src="walangaudio.mp3" type="audio/mp3">
-</audio>
-
-<video controls>
-    <source src="walagvid.mp4" type="video/mp4">
-</video>
-
-</body>
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=C3GouGa0noM">
+src="https://www.youtube.com/embed/C3GouGa0noM?si=a1NSBtcDwsUv1egY">
 </iframe>
+<audio controls><source src="https://drive.google.com/file/d/1qSqAuz0d-D5EqesbAWMySG4lk8q5Gr30/preview" type="audio/mpeg">Your browser does not support the audio tag.</audio>
+</body>
 </html>

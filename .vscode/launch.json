@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "msedge",
             "request": "launch",
-            "name": "Open Untitled-3.html",
-            "file": "c:\\Users\\m307user\\Documents\\Untitled-3.html"
+            "name": "Open exercise 3.html",
+            "file": "c:\\Users\\akiak\\Downloads\\214298198-WebApp\\exercise 3.html"
         }
     ]
 }
