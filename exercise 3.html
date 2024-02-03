@@ -11,6 +11,7 @@
         }
         table {
             font-size: 20px;
+            background-color: blueviolet;
         }
         form{
             font-size: 20px;
@@ -37,11 +38,17 @@
         section {
             margin: 20px;
         }
+        table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
     </style>
 </head>
 <!-- dito lahat-->
 <body>
-
 
     <nav>
     <a href="https://en.wikipedia.org/wiki/Michael_Jordan">Home</a> |
@@ -71,24 +78,24 @@
         <input type="checkbox" id="terms" name="terms" required>
         <button type="submit">Submit</button></p>
 <!-- table -->
-    <table style="background-color:violet;">
+    <table>
         <thead>
             <tr>
-                <th>Name|</th>
-                <th>Age|</th>
-                <th>City|</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>John|</td>
-                <td>25|</td>
-                <td>New York|</td>
+                <td>John</td>
+                <td>25</td>
+                <td>New York</td>
             </tr>
             <tr>
-                <td>Jane|</td>
-                <td>30|</td>
-                <td>Los Angeles|</td>
+                <td>Jane</td>
+                <td>30</td>
+                <td>Los Angeles</td>
             </tr>
         </tbody>
     </table>
