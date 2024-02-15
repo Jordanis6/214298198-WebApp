@@ -5,10 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "msedge",
+            "type": "chrome",
             "request": "launch",
             "name": "Open for exercise 3.html",
-            "file": "c:\\Users\\akiak\\Downloads\\214298198-WebApp\\AI.html"
+            //"file": "c:\\Users\\akiak\\Downloads\\214298198-WebApp\\"
+            //"file": "c:\\Users\\akiak\\Downloads\\214298198-WebApp\\time_management.html"
+            //"file": "c:\\214298198-WebApp\\time_management.html"
+            //"file": "c:\\214298198-WebApp\\AI.html"
+            "file": "c:\\214298198-WebApp\\for_bootstrap.html"
         }
     ]
 }
