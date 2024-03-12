@@ -8,15 +8,15 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open for exercise 3.html",
-<<<<<<< HEAD
+
             //"file": "c:\\Users\\akiak\\Downloads\\214298198-WebApp\\"
             //"file": "c:\\Users\\akiak\\Downloads\\214298198-WebApp\\time_management.html"
             //"file": "c:\\214298198-WebApp\\time_management.html"
             //"file": "c:\\214298198-WebApp\\AI.html"
             "file": "c:\\214298198-WebApp\\revisedwithCSS.html"
-=======
-            "file": "c:\\Users\\akiak\\Downloads\\214298198-WebApp\\bootstraptest.html"
->>>>>>> fbef733684d9873dfb0ab7a58dcb0e41eef44192
+            //"file": "c:\\214298198-WebApp\\tryingCSS.html"
+
+
         }
     ]
 }

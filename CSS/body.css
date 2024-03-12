@@ -39,7 +39,7 @@ th, td{
     background-color: rgb(0, 240, 240);
 }
 
-ul{
+ul,ol{
     color:red;
 }
 
