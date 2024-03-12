@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- forms/colors-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <style>
+        body {
+            font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table {
+            font-size: 20px;
+            background-color: blueviolet;
+        }
+        form{
+            font-size: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 26px;
+            margin: 0 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+        }
+        table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
+    </style>
+</head>
+<!-- dito lahat-->
+<body>
+
+    <nav>
+    <a href="https://en.wikipedia.org/wiki/Michael_Jordan">Home</a> |
+    <a href="https://en.wikipedia.org/wiki/Kobe_Bryant">About Us</a> |
+    <a href="https://en.wikipedia.org/wiki/LeBron_James">Contact</a>
+</nav>
+   <h1 style="background-color: #333; color: white; font-size: 50px;">WELCOME!</h1>
+<body style="background-color:rgb(85, 156, 223);">
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHR6dXc3MDBoenNyODI5djRjcndlc2R6bjVzcjh4ZHExcmlieHJncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wRmOK4J2261gI/giphy.gif" alt="kirby" style="width:1800px;height:300px">
+    <!-- Input -->
+    <form>
+        <label for="name"><b>Name:</b></label>
+        <input type="text" id="name" name="name" required minlength="2">
+    </form>
+    <form>
+        <label for="password"><b>Password:</b></label>
+        <input type="password" id="password" name="password" required>
+    </form>
+    <form>
+        <label for="gender"><b>Gender:</b></label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </form>
+        <p style="font-size:20px;"><label for="terms">Accept terms and conditions:</label>
+        <input type="checkbox" id="terms" name="terms" required>
+        <button type="submit">Submit</button></p>
+<!-- table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+                <td>Los Angeles</td>
+            </tr>
+        </tbody>
+    </table>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy6pBh4pMQuvMtk6oD5AxpM6F7xmjJPbX" crossorigin="anonymous">
+
+    <!-- java -->
+    <script src="path/to/your/external-script.js" defer></script>
+    <h1>External Resources Example</h1>
+
+    <div class="container">
+        <p>CLICK IT!.</p>
+
+        <button id="exampleButton" class="btn btn-primary">Click me</button>
+    </div>
+
+    <script>
+        document.getElementById('exampleButton').addEventListener('click', function() {
+            alert('Button clicked! Wow Magic!');
+        });
+    </script>
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/C3GouGa0noM?si=a1NSBtcDwsUv1egY">
+</iframe>
+<audio controls><source src="https://drive.google.com/file/d/1qSqAuz0d-D5EqesbAWMySG4lk8q5Gr30/preview" type="audio/mpeg">Your browser does not support the audio tag.</audio>
+</body>
+</html>
