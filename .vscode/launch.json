@@ -7,13 +7,13 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open for exercise 3.html",
+            "name": "Open for exercise 3",
 
             //"file": "c:\\Users\\akiak\\Downloads\\214298198-WebApp\\"
-            //"file": "c:\\Users\\akiak\\Downloads\\214298198-WebApp\\time_management.html"
+            "file": "c:\\Users\\akiak\\Downloads\\214298198-WebApp\\Exercise1.html"
             //"file": "c:\\214298198-WebApp\\time_management.html"
             //"file": "c:\\214298198-WebApp\\AI.html"
-            "file": "c:\\214298198-WebApp\\Exercise1.html"
+            //"file": "c:\\214298198-WebApp\\Exercise2.html"
             //"file": "c:\\214298198-WebApp\\tryingCSS.html"
 
 
