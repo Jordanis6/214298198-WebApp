@@ -71,7 +71,7 @@ header {
   width: 60vw;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 300px) {
   .logo {
     margin-top: 15px;
     width: 100%;
@@ -80,9 +80,9 @@ header {
 }
 
 .logo > img {
-  width: 100%;
-  height: 100%;
-  max-width: 300px;
+  width: 50%;
+  height: 50%;
+  max-width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,15 +90,21 @@ header {
   margin-left: 20px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 50px) {
   .logo > img {
     margin: 0 auto;
   }
 }
 
-nav {
-  font-weight: 400;
+#nav-bar {
+  background-color:#ff5860;
+  width: 700px;
+  height: 20px;
+  margin: 15px 0;
+  border-radius: 25px;
+
 }
+
 
 @media (max-width: 650px) {
   nav {
@@ -112,6 +118,7 @@ nav {
   }
   nav li {
     padding-bottom: 5px;
+    
   }
 }
 
@@ -120,11 +127,13 @@ nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-weight: bold;
 }
 
 @media (max-width: 650px) {
   nav > ul {
     flex-direction: column;
+    font-weight: bold;
   }
 }
 
@@ -141,6 +150,7 @@ nav > ul {
 #hero > h2 {
   margin-bottom: 20px;
   word-wrap: break-word;
+  font-style: italic;
 }
 
 #hero input[type='email'] {
@@ -150,16 +160,17 @@ nav > ul {
 }
 
 #hero input[type='submit'] {
-  max-width: 150px;
+  max-width: 160px;
   width: 100%;
   height: 30px;
   margin: 15px 0;
   border: 0;
-  background-color: #f1c40f;
+  border-radius: 25px;
+  background-color: #ff5860;
 }
 
 #hero input[type='submit']:hover {
-  background-color: orange;
+  background-color: #ff5860;
   transition: background-color 1s;
 }
 
@@ -179,7 +190,7 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: darkorange;
+  color: rgb(255, 90, 112);
 }
 
 @media (max-width: 550px) {
@@ -188,6 +199,9 @@ nav > ul {
   }
 }
 
+.logoName {
+  font-size: larger;
+}
 #features .desc {
   display: flex;
   flex-direction: column;
@@ -237,7 +251,6 @@ nav > ul {
   text-align: center;
   width: calc(100% / 3);
   margin: 10px;
-  border: 1px solid #000;
   border-radius: 3px;
 }
 
@@ -263,14 +276,14 @@ nav > ul {
 }
 
 .product > button {
-  border: 0;
-  margin: 15px 0;
-  background-color: #f1c40f;
-  font-weight: 400;
+  border-radius: 25px;
+  background-color: #ff5860;
+  font-weight: bold;
+  
 }
 
 .product > button:hover {
-  background-color: orange;
+  background-color: rgb(255, 5, 67);
   transition: background-color 1s;
 }
 
@@ -294,7 +307,7 @@ footer {
 
 footer > ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 footer > ul > li {
@@ -304,7 +317,8 @@ footer > ul > li {
 footer > span {
   margin-top: 5px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   font-size: 0.9em;
   color: #444;
+  
 }
